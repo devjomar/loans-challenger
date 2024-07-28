@@ -1,0 +1,13 @@
+
+###
+
+POST http://localhost:8080/customer-loans
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "age": 28,
+  "cpf": "123.456.789-01",
+  "income": 4000,
+  "location": "SP"
+}
